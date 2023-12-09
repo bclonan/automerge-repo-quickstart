@@ -22,18 +22,10 @@ function App({docUrl}: {docUrl: AutomergeUrl}) {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>XYZ0</h1>
       <div className="card">
-        <button onClick={() => changeDoc((d) => d.counter.increment(1))}>
-          ok is { doc && doc.counter.value }
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+        Good to go!
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
