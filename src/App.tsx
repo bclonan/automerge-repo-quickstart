@@ -25,7 +25,7 @@ function App({docUrl}: {docUrl: AutomergeUrl}) {
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => changeDoc((d) => d.counter.increment(1))}>
-          count is { doc && doc.counter.value }
+          ok is { doc && doc.counter.value }
         </button>
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
